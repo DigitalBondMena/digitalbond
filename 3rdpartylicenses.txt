@@ -16,6 +16,9 @@ MIT
 @angular/router
 MIT
 
+@ng-select/ng-select
+MIT
+
 animate.css
 MIT
 The MIT License (MIT)
@@ -341,6 +344,9 @@ ngx-bootstrap/popover
 MIT
 
 ngx-bootstrap/positioning
+MIT
+
+ngx-bootstrap/tabs
 MIT
 
 ngx-bootstrap/utils
