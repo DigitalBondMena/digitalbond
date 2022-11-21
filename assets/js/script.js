@@ -144,6 +144,17 @@ jQuery(function ($) {
 //   }
 
 // });
+$(document).ready(function(){
+
+  let shape_1_fill =  document.querySelector('#shape_1_fill');
+  let shape_2_fill =  document.querySelector('#shape_2_fill');
+  let shape_3_fill =  document.querySelector('#shape_3_fill');
+  let shape_4_fill =  document.querySelector('#shape_4_fill');
+  $(shape_1_fill).attr('opacity','1', function(){
+    console.log("test");
+  })
+})
+
 $("a.my-tool-tip").tooltip();
 $(".btn_up").on('click', function() {
   $('html, body').animate({scrollTop:0}, '300');
