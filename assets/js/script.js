@@ -116,16 +116,16 @@ jQuery(function ($) {
       WOW Animation
    ====================================== */
 
-  if ($(window).width() > 991) {
-    var wow = new WOW({
-      boxClass: "wow",
-      animateClass: "animated",
-      offset: 0,
-      mobile: false,
-      live: true,
-    });
-    new WOW().init();
-  }
+  // if ($(window).width() > 991) {
+  //   var wow = new WOW({
+  //     boxClass: "wow",
+  //     animateClass: "animated",
+  //     offset: 0,
+  //     mobile: false,
+  //     live: true,
+  //   });
+  //   new WOW().init();
+  // }
   $(function () {
     $('[data-toggle="popover"]').popover()
   })
