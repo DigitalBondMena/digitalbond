@@ -1,5 +1,5 @@
 $(window).ready(function(){
-  $(".loader").delay(800).fadeOut(2000)
+  $(".loader").delay(1000).fadeOut(2000)
 })
 $(window).on("load", function () {
   "use strict";
