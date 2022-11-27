@@ -70,47 +70,24 @@ jQuery(function ($) {
   /* ===================================
         Side Menu
     ====================================== */
-  if ($("#sidemenu_toggle,#sidemenu_toggle1").length) {
-    $("#sidemenu_toggle,#sidemenu_toggle1").on("click", function () {
-      $(".side-menu").removeClass("side-menu-opacity");
-      $(".pushwrap").toggleClass("active");
-      $(".side-menu").addClass("side-menu-active"),
-        $("#close_side_menu").fadeIn(700);
-    }),
-      $("#close_side_menu").on("click", function () {
-        $(".side-menu").removeClass("side-menu-active"),
-          $(this).fadeOut(200),
-          $(".pushwrap").removeClass("active");
-        setTimeout(function () {
-          $(".side-menu").addClass("side-menu-opacity");
-        }, 500);
-      }),
-      $(".side-nav .navbar-nav .nav-link").on("click", function () {
-        $(".side-menu").removeClass("side-menu-active"),
-          $("#close_side_menu").fadeOut(200),
-          $(".pushwrap").removeClass("active");
-        setTimeout(function () {
-          $(".side-menu").addClass("side-menu-opacity");
-        }, 500);
-      }),
-      $(".navbar-nav li ul.dropdown-menu a").on("click", function (e) {
-        e.preventDefault()
-        $(".side-menu").removeClass("side-menu-active"),
-          $("#close_side_menu").fadeOut(200),
-          $(".pushwrap").removeClass("active");
-        setTimeout(function () {
-          $(".side-menu").addClass("side-menu-opacity");
-        }, 500);
-      }),
-      $("#btn_sideNavClose").on("click", function () {
-        $(".side-menu").removeClass("side-menu-active"),
-          $("#close_side_menu").fadeOut(200),
-          $(".pushwrap").removeClass("active");
-        setTimeout(function () {
-          $(".side-menu").addClass("side-menu-opacity");
-        }, 500);
-      });
-  }
+    // $(".side-nav .navbar-nav .nav-link").on("click", function () {
+    //   $(".side-menu").removeClass("side-menu-active"),
+    //     $("#close_side_menu").fadeOut(200),
+    //     $(".pushwrap").removeClass("active");
+    //   setTimeout(function () {
+    //     $(".side-menu").addClass("side-menu-opacity");
+    //   }, 500);
+    // }),
+    // $(".navbar-nav li ul.dropdown-menu a").on("click", function (e) {
+    //   e.preventDefault()
+    //   $(".side-menu").removeClass("side-menu-active"),
+    //     $("#close_side_menu").fadeOut(200),
+    //     $(".pushwrap").removeClass("active");
+    //   setTimeout(function () {
+    //     $(".side-menu").addClass("side-menu-opacity");
+    //   }, 500);
+    // }),
+
 
   /* ===================================
       WOW Animation
