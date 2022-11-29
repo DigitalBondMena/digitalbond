@@ -325,9 +325,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-jquery-fancybox
-ISC
-
 ng-lazyload-image
 MIT
 The MIT License (MIT)
