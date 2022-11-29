@@ -1,6 +1,4 @@
-$(window).ready(function(){
-  $(".loader").delay(1000).fadeOut(2000)
-})
+
 $(window).on("load", function () {
   "use strict";
   /* ===================================
