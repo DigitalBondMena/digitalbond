@@ -380,9 +380,6 @@ MIT
 ngx-countup
 MIT
 
-ngx-facebook
-MIT
-
 ngx-intl-tel-input
 MIT
 MIT License
@@ -409,9 +406,6 @@ SOFTWARE.
 
 
 ngx-owl-carousel-o
-MIT
-
-ngx-spinner
 MIT
 
 ngx-toastr
