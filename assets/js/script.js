@@ -121,10 +121,10 @@ jQuery(function ($) {
 // });
 
 
-$("a.my-tool-tip").tooltip();
-$(".btn_up").on('click', function() {
-  $('html, body').animate({scrollTop:0}, '300');
-});
+// $("a.my-tool-tip").tooltip();
+// $(".btn_up").on('click', function() {
+//   $('html, body').animate({scrollTop:0}, '300');
+// });
 
   // if ($(window).width() > 991) {
   //   $(".banner .main_slider_content .main_slider_header, header , .service-details , .about_us_title , .team-details .title, .about-details .title , .services-section .section-header , .contact-sec .heading , .testimonial-page .heading , .review_section h2" ).mousemove(function (e) {
